@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+:root { --primary: #18181b; --accent: #71717a; --bg: #ffffff; --text: #18181b; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background-color: var(--bg); overflow-x: hidden; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Libre Baskerville', serif; }
+.gradient-text { background: linear-gradient(135deg, #18181b 0%, #27272a 50%, #71717a 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.glass { background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.15); }
